@@ -1,7 +1,13 @@
+import axios from "axios";
+
 const API_URL = "https://localhost:7130/api/Categoria";
 
-export async function getCategorias() {
-  const response = await fetch(API_URL);
-  if (!response.ok) throw new Error("Error al obtener las categorías");
-  return await response.json();
-}
+export const getCategorias = async () => {
+  try {
+    const response = await axios.get(API_URL);
+    return response.data.$values || [];
+  } catch (error) {
+    console.error("Error al obtener categorías:", error);
+    return [];
+  }
+};

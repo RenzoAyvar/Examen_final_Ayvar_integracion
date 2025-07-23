@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\APIs\\appVentas\\appVentas\\appVentas.csproj": {}
+    "D:\\API_Integracion\\appVentas\\appVentas\\appVentas.csproj": {}
   },
   "projects": {
-    "D:\\APIs\\appVentas\\appVentas\\appVentas.csproj": {
+    "D:\\API_Integracion\\appVentas\\appVentas\\appVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APIs\\appVentas\\appVentas\\appVentas.csproj",
+        "projectUniqueName": "D:\\API_Integracion\\appVentas\\appVentas\\appVentas.csproj",
         "projectName": "appVentas",
-        "projectPath": "D:\\APIs\\appVentas\\appVentas\\appVentas.csproj",
+        "projectPath": "D:\\API_Integracion\\appVentas\\appVentas\\appVentas.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\APIs\\appVentas\\appVentas\\obj\\",
+        "outputPath": "D:\\API_Integracion\\appVentas\\appVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

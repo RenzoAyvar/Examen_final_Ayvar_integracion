@@ -1,52 +1,64 @@
 import React, { useEffect, useState } from "react";
-import "./DetalleVentaList.css";
+import { getDetalleVentas } from "../services/detalleVentaService";
 
-const DetalleVentaList = () => {
+const ListaDetalleVentas = () => {
   const [ventas, setVentas] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch("https://localhost:7130/api/DetalleVenta");
-        const data = await res.json();
-        setVentas(data);
-      } catch (error) {
-        console.error("Error al obtener los detalles de venta:", error);
-      }
-    };
+    getDetalleVentas().then((data) => {
+      console.log("DetalleVentas desde servicio:", data);
 
-    fetchData();
+      const ventas = (Array.isArray(data) ? data : data?.$values || []).map((venta) => {
+        const detalles = Array.isArray(venta?.detalles) ? venta.detalles : venta?.detalles?.$values || [];
+
+        return {
+          ...venta,
+          detalles,
+        };
+      });
+
+      console.log("Ventas procesadas:", ventas);
+      setVentas(ventas);
+    });
   }, []);
 
+  console.log("Renderizando ventas:", ventas);
+
   return (
-    <div className="venta-container" >
-      <h2>Detalle de Ventas</h2>
+    <div className="p-6">
+      <h2 className="text-2xl font-semibold mb-4">Detalle de Ventas</h2>
+      <p>Ventas cargadas: {ventas.length}</p>
       {ventas.map((venta) => (
-        <div className="venta-card" key={venta.id} style={{ border: "1px solid #ccc", padding: "10px", marginBottom: "15px" }}>
+        <div key={venta.id} className="bg-white shadow-md rounded-lg p-4 mb-4">
           <p><strong>ID:</strong> {venta.id}</p>
           <p><strong>Fecha:</strong> {new Date(venta.fecha).toLocaleString()}</p>
           <p><strong>Cliente:</strong> {venta.clienteNombre}</p>
           <p><strong>Total:</strong> ${venta.total}</p>
-
-          <h4>Productos:</h4>
-          <table border="1" cellPadding="5">
+          <h3 className="font-semibold mt-2">Productos:</h3>
+          <table className="table-auto w-full text-left mt-2">
             <thead>
               <tr>
-                <th>Producto</th>
-                <th>Cantidad</th>
-                <th>Precio Unitario</th>
-                <th>Subtotal</th>
+                <th className="border px-2">Producto</th>
+                <th className="border px-2">Cantidad</th>
+                <th className="border px-2">Precio Unitario</th>
+                <th className="border px-2">Subtotal</th>
               </tr>
             </thead>
             <tbody>
-              {venta.detalles.map((detalle, index) => (
-                <tr key={index}>
-                  <td>{detalle.productoNombre}</td>
-                  <td>{detalle.cantidad}</td>
-                  <td>${detalle.precioUnitario}</td>
-                  <td>${detalle.subtotal}</td>
+              {venta.detalles?.length > 0 ? (
+                venta.detalles.map((detalle, idx) => (
+                  <tr key={idx}>
+                    <td className="border px-2">{detalle.productoNombre}</td>
+                    <td className="border px-2">{detalle.cantidad}</td>
+                    <td className="border px-2">${detalle.precioUnitario}</td>
+                    <td className="border px-2">${detalle.subtotal}</td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="4" className="border px-2 text-center text-gray-500">Sin productos</td>
                 </tr>
-              ))}
+              )}
             </tbody>
           </table>
         </div>
@@ -55,4 +67,4 @@ const DetalleVentaList = () => {
   );
 };
 
-export default DetalleVentaList;
+export default ListaDetalleVentas;

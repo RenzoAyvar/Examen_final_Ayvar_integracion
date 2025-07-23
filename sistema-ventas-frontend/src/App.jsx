@@ -1,21 +1,21 @@
-import React from "react";
-import VentaList from "./components/VentaList";
-import ClienteList from "./components/clienteList";
-import ProductoList from "./components/ProductoList";
-import CategoriaList from "./components/categoriaList";
-import DetalleVentaList from "./components/detalleVentaList";
+import React from 'react';
+import ListaClientes from './components/ClienteList';
+import ListaProductos from './components/ProductoList';
+import ListaCategorias from './components/categoriaList';
+import ListaVentas from './components/VentaList';
+import ListaDetalleVentas from './components/detalleVentaList';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>¡Bienvenido al Sistema de Ventas!</h1>
-      <VentaList />
-      <ClienteList />
-      <ProductoList />
-      <CategoriaList />
-      <DetalleVentaList />
+    <div className="p-4 space-y-10">
+      <h1 className="text-3xl font-bold text-center mb-6">Sistema de Ventas</h1>
+      <ListaClientes />
+      <ListaCategorias />
+      <ListaProductos />
+      <ListaVentas />
+      <ListaDetalleVentas />
     </div>
   );
-}
+};
 
 export default App;

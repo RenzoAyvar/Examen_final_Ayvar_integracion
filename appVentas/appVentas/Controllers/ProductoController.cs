@@ -32,12 +32,22 @@ namespace appVentas.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Producto>> PostProducto(Producto producto)
+        public async Task<ActionResult<Producto>> PostProducto(CreaProductosDto dto)
         {
+            var producto = new Producto
+            {
+                Nombre = dto.Nombre,
+                Precio = dto.Precio,
+                Stock = dto.Stock,
+                CategoriaId = dto.CategoriaId
+            };
+
             _context.Productos.Add(producto);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetProducto), new { id = producto.Id }, producto);
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProducto(int id, Producto producto)

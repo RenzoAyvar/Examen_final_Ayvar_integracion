@@ -137,8 +137,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cliente",
-        "Type": "appVentas.Models.Cliente",
+        "Name": "dto",
+        "Type": "appVentas.Dtos.ClienteCreateDtos",
         "IsRequired": true
       }
     ],
@@ -355,8 +355,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "producto",
-        "Type": "appVentas.Models.Producto",
+        "Name": "dto",
+        "Type": "CreaProductosDto",
         "IsRequired": true
       }
     ],
@@ -457,29 +457,19 @@
   },
   {
     "ContainingType": "appVentas.Controllers.VentaController",
-    "Method": "PostVenta",
+    "Method": "CrearVenta",
     "RelativePath": "api/Venta",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "venta",
-        "Type": "appVentas.Models.Venta",
+        "Name": "ventaDto",
+        "Type": "appVentas.Dtos.VentaCreaDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "appVentas.Models.Venta",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "appVentas.Controllers.VentaController",

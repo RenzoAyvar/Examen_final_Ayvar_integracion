@@ -1,65 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\APIs\\appVentas\\",
+  "WorkspaceRootPath": "D:\\API_Integracion\\appVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\controllers\\detalleventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\ventacreadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\ventacreadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\detalleventacreadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\detalleventacreadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\creaventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\creaventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\controllers\\detalleventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\detalleventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\dtos\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\apis\\appventas\\appventas\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\detalleventacreardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\detalleventacreardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\creadetalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\creadetalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\creaproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\creaproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\dtos\\clientecreatedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\dtos\\clientecreatedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|d:\\api_integracion\\appventas\\appventas\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52CBF73-2910-4AB1-860D-2907AC1C9464}|appVentas\\appVentas.csproj|solutionrelative:appventas\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -74,102 +102,154 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "appVentas\\Controllers\\CategoriaController.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "appVentas\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DetalleVentaCreaDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\DetalleVentaCreaDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\DetalleVentaCreaDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\DetalleVentaCreaDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\DetalleVentaCreaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T09:09:37.061Z",
+              "WhenOpened": "2025-07-23T21:12:29.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentaCreaDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\VentaCreaDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\VentaCreaDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\VentaCreaDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\VentaCreaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T21:11:39.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "DetalleVentaDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\DetalleVentaDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\DetalleVentaDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\DetalleVentaDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\DetalleVentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:25:18.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Program.cs",
+              "RelativeDocumentMoniker": "appVentas\\Program.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Program.cs",
+              "RelativeToolTip": "appVentas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:31:42.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "appVentas\\Controllers\\VentaController.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "appVentas\\Controllers\\VentaController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswD4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:19:44.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "VentaDto.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Dtos\\VentaDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\VentaDto.cs",
               "RelativeDocumentMoniker": "appVentas\\Dtos\\VentaDto.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Dtos\\VentaDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\VentaDto.cs",
               "RelativeToolTip": "appVentas\\Dtos\\VentaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T08:24:54.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "appVentas\\Models\\Categoria.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Models\\Categoria.cs",
-              "RelativeToolTip": "appVentas\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:58:24.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DetalleVenta.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Models\\DetalleVenta.cs",
-              "RelativeDocumentMoniker": "appVentas\\Models\\DetalleVenta.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Models\\DetalleVenta.cs",
-              "RelativeToolTip": "appVentas\\Models\\DetalleVenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:19:05.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "appVentas\\Models\\Producto.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Models\\Producto.cs",
-              "RelativeToolTip": "appVentas\\Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:18:47.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DetalleVentaController.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Controllers\\DetalleVentaController.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\DetalleVentaController.cs",
               "RelativeDocumentMoniker": "appVentas\\Controllers\\DetalleVentaController.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Controllers\\DetalleVentaController.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\DetalleVentaController.cs",
               "RelativeToolTip": "appVentas\\Controllers\\DetalleVentaController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwE8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T05:31:41.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ProductoController.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Controllers\\ProductoController.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "appVentas\\Controllers\\ProductoController.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Controllers\\ProductoController.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "appVentas\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T09:12:57.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "CreaVentaDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\CreaVentaDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\CreaVentaDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\CreaVentaDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\CreaVentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:42:23.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetalleVentaCrearDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\DetalleVentaCrearDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\DetalleVentaCrearDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\DetalleVentaCrearDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\DetalleVentaCrearDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T16:48:20.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "appVentas\\Models\\DetalleVenta.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\DetalleVenta.cs",
+              "RelativeToolTip": "appVentas\\Models\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:19:05.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "appVentas\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Data\\AppDbContext.cs",
               "RelativeToolTip": "appVentas\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -178,50 +258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VentaController.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Controllers\\VentaController.cs",
-              "RelativeDocumentMoniker": "appVentas\\Controllers\\VentaController.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Controllers\\VentaController.cs",
-              "RelativeToolTip": "appVentas\\Controllers\\VentaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T09:19:44.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "appVentas\\Controllers\\ClienteController.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "appVentas\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T09:13:18.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "appVentas\\Models\\Cliente.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Models\\Cliente.cs",
-              "RelativeToolTip": "appVentas\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:18:25.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Venta.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Models\\Venta.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Venta.cs",
               "RelativeDocumentMoniker": "appVentas\\Models\\Venta.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Models\\Venta.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Venta.cs",
               "RelativeToolTip": "appVentas\\Models\\Venta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,42 +271,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Program.cs",
-              "RelativeDocumentMoniker": "appVentas\\Program.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Program.cs",
-              "RelativeToolTip": "appVentas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Models\\Producto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Producto.cs",
+              "RelativeToolTip": "appVentas\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T05:31:42.968Z",
+              "WhenOpened": "2025-07-23T07:18:47.041Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "appVentas\\Models\\Categoria.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Categoria.cs",
+              "RelativeToolTip": "appVentas\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:58:24.005Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "DetalleVentaDto.cs",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\Dtos\\DetalleVentaDto.cs",
-              "RelativeDocumentMoniker": "appVentas\\Dtos\\DetalleVentaDto.cs",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\Dtos\\DetalleVentaDto.cs",
-              "RelativeToolTip": "appVentas\\Dtos\\DetalleVentaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "CreaDetalleVentaDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\CreaDetalleVentaDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\CreaDetalleVentaDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\CreaDetalleVentaDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\CreaDetalleVentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T08:25:18.386Z",
+              "WhenOpened": "2025-07-23T15:42:54.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
+              "Title": "ClienteCreateDtos.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\ClienteCreateDtos.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\ClienteCreateDtos.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\ClienteCreateDtos.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\ClienteCreateDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:17:49.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreaProductosDto.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\CreaProductosDto.cs",
+              "RelativeDocumentMoniker": "appVentas\\Dtos\\CreaProductosDto.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Dtos\\CreaProductosDto.cs",
+              "RelativeToolTip": "appVentas\\Dtos\\CreaProductosDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:39:39.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "appVentas\\Controllers\\ClienteController.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "appVentas\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:13:18.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "appVentas\\Controllers\\CategoriaController.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "appVentas\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:09:37.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "appVentas\\Models\\Cliente.cs",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\Models\\Cliente.cs",
+              "RelativeToolTip": "appVentas\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:18:25.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\APIs\\appVentas\\appVentas\\appsettings.json",
+              "DocumentMoniker": "D:\\API_Integracion\\appVentas\\appVentas\\appsettings.json",
               "RelativeDocumentMoniker": "appVentas\\appsettings.json",
-              "ToolTip": "D:\\APIs\\appVentas\\appVentas\\appsettings.json",
+              "ToolTip": "D:\\API_Integracion\\appVentas\\appVentas\\appsettings.json",
               "RelativeToolTip": "appVentas\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-23T05:34:28.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T05:34:28.813Z"
             }
           ]
         }

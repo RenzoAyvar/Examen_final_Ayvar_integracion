@@ -1,4 +1,5 @@
 ﻿using appVentas.Data;
+using appVentas.Dtos;
 using appVentas.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +27,8 @@ namespace appVentas.Controllers
                     v.Id,
                     v.Fecha,
                     v.Total,
-                    v.ClienteId
+                    v.ClienteId,
+                    ClienteNombre = v.Cliente.Nombres
                 })
                 .ToListAsync();
 
@@ -56,17 +58,53 @@ namespace appVentas.Controllers
 
         // POST: api/venta
         [HttpPost]
-        public async Task<ActionResult<Venta>> PostVenta(Venta venta)
+        public async Task<IActionResult> CrearVenta([FromBody] VentaCreaDto ventaDto)
         {
-            var cliente = await _context.Clientes.FindAsync(venta.ClienteId);
-            if (cliente == null)
-                return BadRequest("Cliente no válido");
+            try
+            {
+                var cliente = await _context.Clientes.FindAsync(ventaDto.ClienteId);
+                if (cliente == null)
+                    return BadRequest("Cliente no válido");
 
-            _context.Ventas.Add(venta);
-            await _context.SaveChangesAsync();
+                var venta = new Venta
+                {
+                    Fecha = ventaDto.Fecha,
+                    ClienteId = ventaDto.ClienteId,
+                    Detalles = new List<DetalleVenta>()
+                };
 
-            return CreatedAtAction(nameof(GetVenta), new { id = venta.Id }, venta);
+                foreach (var detalleDto in ventaDto.Detalles)
+                {
+                    var producto = await _context.Productos.FindAsync(detalleDto.ProductoId);
+                    if (producto == null)
+                        return BadRequest($"Producto con ID {detalleDto.ProductoId} no existe");
+
+                    var detalle = new DetalleVenta
+                    {
+                        ProductoId = detalleDto.ProductoId,
+                        Cantidad = detalleDto.Cantidad,
+                        PrecioUnitario = producto.Precio,
+                        Subtotal = detalleDto.Cantidad * producto.Precio
+                    };
+
+                    venta.Detalles.Add(detalle);
+                }
+
+                venta.Total = venta.Detalles.Sum(d => d.Subtotal);
+
+                _context.Ventas.Add(venta);
+                await _context.SaveChangesAsync();
+
+                return Ok(new { mensaje = "Venta registrada exitosamente", venta.Id });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al registrar la venta: {ex.Message}");
+            }
         }
+
+
+
 
         // PUT: api/venta/5
         [HttpPut("{id}")]
@@ -85,14 +123,19 @@ namespace appVentas.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteVenta(int id)
         {
-            var venta = await _context.Ventas.FindAsync(id);
+            var venta = await _context.Ventas
+                .Include(v => v.Detalles)
+                .FirstOrDefaultAsync(v => v.Id == id);
+
             if (venta == null)
                 return NotFound();
 
+            _context.DetallesVenta.RemoveRange(venta.Detalles);
             _context.Ventas.Remove(venta);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
     }
 }

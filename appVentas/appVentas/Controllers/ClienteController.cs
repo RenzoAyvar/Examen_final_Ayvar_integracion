@@ -1,4 +1,5 @@
 ﻿using appVentas.Data;
+using appVentas.Dtos;
 using appVentas.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -32,10 +33,18 @@ namespace appVentas.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
+        public async Task<ActionResult<Cliente>> PostCliente(ClienteCreateDtos dto)
         {
+            var cliente = new Cliente
+            {
+                Nombres = dto.Nombres,
+                Apellidos = dto.Apellidos,
+                Correo = dto.Correo
+            };
+
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, cliente);
         }
 

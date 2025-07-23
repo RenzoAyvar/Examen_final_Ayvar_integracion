@@ -67,22 +67,21 @@ namespace appVentas.Controllers
         [HttpPost]
         public async Task<ActionResult<Venta>> PostVenta(Venta venta)
         {
-            // Asegúrate que el cliente existe
             var cliente = await _context.Clientes.FindAsync(venta.ClienteId);
             if (cliente == null)
                 return BadRequest("Cliente no válido");
 
-            // Validar productos
             foreach (var detalle in venta.Detalles)
             {
                 var producto = await _context.Productos.FindAsync(detalle.ProductoId);
                 if (producto == null)
                     return BadRequest($"Producto con ID {detalle.ProductoId} no existe");
 
-                // Puedes calcular el subtotal aquí si deseas
                 detalle.PrecioUnitario = producto.Precio;
-                detalle.Subtotal = producto.Precio * detalle.Cantidad;
             }
+
+            venta.Total = venta.Detalles.Sum(d => d.Cantidad * d.PrecioUnitario);
+
 
             _context.Ventas.Add(venta);
             await _context.SaveChangesAsync();

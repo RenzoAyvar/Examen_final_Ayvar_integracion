@@ -9,18 +9,18 @@ const ListaProductos = () => {
   }, []);
 
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-semibold mb-4">Lista de Productos</h2>
-      <div className="grid gap-4">
-        {productos.map((producto) => (
-          <div key={producto.id} className="bg-white shadow-md rounded-lg p-4">
-            <p><span className="font-bold">Nombre:</span> {producto.nombre}</p>
-            <p><span className="font-bold">Precio:</span> ${producto.precio}</p>
-            <p><span className="font-bold">Stock:</span> {producto.stock}</p>
-            <p><span className="font-bold">Categoría:</span> {producto.categoria?.nombre}</p>
-          </div>
+    <div>
+      <h2 className="text-xl font-semibold mb-2">Productos</h2>
+      <ul>
+        {productos.map(p => (
+          <li key={p.id} className="border p-2 mb-2 rounded bg-gray-50">
+            <p><strong>Nombre:</strong> {p.nombre}</p>
+            <p><strong>Precio:</strong> ${p.precio}</p>
+            <p><strong>Stock:</strong> {p.stock}</p>
+            <p><strong>Categoría:</strong> {p.categoria?.nombre}</p>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

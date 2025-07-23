@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+85sxg52YeA=",
+  "dgSpecHash": "CCYhC3eTqsw=",
   "success": true,
-  "projectFilePath": "D:\\APIs\\appVentas\\appVentas\\appVentas.csproj",
+  "projectFilePath": "D:\\API_Integracion\\appVentas\\appVentas\\appVentas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
